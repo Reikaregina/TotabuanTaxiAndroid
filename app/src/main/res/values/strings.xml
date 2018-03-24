@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TotabuanTaxi</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_caption">Dont have an account? Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="bri">BRI</string>
+    <string name="norek">No Rekening : 940237437</string>
+    <string name="narek">Nama Rekening :Totabuan Taxi</string>
+    <string name="kota">Kotamobagu, Sulawesi Utara, Indonesia</string>
+    <string name="apload">Apload Bukti Pembayaran</string>
+    <string name="logout">Logout</string>
+    <string name="tersimpan">Tersimpan</string>
+    <string name="greeting">Hi, %s :)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

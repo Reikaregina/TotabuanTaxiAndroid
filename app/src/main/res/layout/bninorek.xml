@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bni1"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:src="@drawable/bni"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:text="BNI"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="400dp"
+            android:layout_height="20dp"
+            android:textSize="10sp"
+            android:text="No.Rekening : 992398520752357"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="400dp"
+            android:layout_height="20dp"
+            android:textSize="10sp"
+            android:text="Nama Rekening : Totabuan Indah"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="400dp"
+            android:layout_height="20dp"
+            android:textSize="10sp"
+            android:text="Kotamobagu. Sulawesi Utara,Indonesia"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="110dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical"
+        android:background="@color/colorGray">
+
+        <Button
+            android:id="@+id/btkeMK"
+            android:layout_marginTop="14dp"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:backgroundTint="#3F51B5"
+            android:text="Apload Bukti Pembayaran"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

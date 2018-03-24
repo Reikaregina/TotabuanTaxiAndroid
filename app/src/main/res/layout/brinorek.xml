@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mail_lay_height"
+    android:background="@color/colorWhite"
+    android:padding="@dimen/mail_lay_padding"
+    tools:context="com.walangare.regina.totabuantaxi.Hasilpesankm">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sec_lay_height"
+        android:padding="@dimen/sec_lay_padding"
+        android:background="@color/colorGray">
+
+        <ImageView
+            android:layout_width="@dimen/icon_dialog_width"
+            android:layout_height="@dimen/icon_dialog_height"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/icon"
+            android:contentDescription="@string/bri" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/bri"
+            android:layout_marginTop="@dimen/title_dialog_margin"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_toRightOf="@+id/icon" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_justAddSomeText"
+            android:layout_below="@+id/icon"
+            android:layout_marginTop="@dimen/ed_dialog_margin_top"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:hint="@string/bri"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/ed_justAddSomeText"
+            android:src="@mipmap/ic_launcher_round"
+            android:id="@+id/img_testJustExample"
+            android:contentDescription="@string/bri" />
+
+        <TextView
+            android:id="@+id/text_testOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_justAddSomeText"
+            android:layout_toRightOf="@+id/img_testJustExample"
+            android:layout_toEndOf="@+id/img_testJustExample"
+            android:layout_marginLeft="@dimen/margin_left_text"
+            android:layout_marginStart="@dimen/margin_left_text"
+            android:text="@string/bri"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_one_height"
+            android:layout_alignParentBottom="true"
+            android:text="@string/apload"
+            android:id="@+id/btn_onePleaseClick"
+            android:textColor="@color/colorAccent"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_one_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/btn_twoClickMe"
+            android:text="@string/apload" />
+    </RelativeLayout>
+</RelativeLayout>

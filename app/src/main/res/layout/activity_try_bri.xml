@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay_main"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mail_lay_height"
+    android:background="@color/colorWhite"
+    android:padding="@dimen/mail_lay_padding"
+    tools:context="com.walangare.regina.totabuantaxi.TryBRI">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sec_lay_height"
+        android:padding="@dimen/sec_lay_padding"
+        android:background="@color/colorGray">
+
+    <ImageView
+        android:layout_width="@dimen/icon_dialog_width"
+        android:layout_height="@dimen/icon_dialog_height"
+        android:src="@mipmap/bri_new"
+        android:id="@+id/icon" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginLeft="@dimen/margin_left_text"
+        android:layout_marginStart="@dimen/margin_left_text"
+        android:text="@string/norek"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginLeft="@dimen/margin_left_text"
+        android:layout_marginStart="@dimen/margin_left_text"
+        android:text="@string/narek"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginLeft="@dimen/margin_left_text"
+        android:layout_marginStart="@dimen/margin_left_text"
+        android:text="@string/kota"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_one_height"
+        android:layout_alignParentBottom="true"
+        android:text="@string/apload"
+        android:id="@+id/btn_apload"
+        android:textColor="@color/colorText"
+        android:background="@drawable/btn_normal"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>
